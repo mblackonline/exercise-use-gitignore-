@@ -1,1 +1,15 @@
+# This file is used to specify files and directories that should be ignored by Git.
+
+
+
+# Ignore the node_modules directory which contains all of the modules of code that the project depends on
 node_modules/
+
+# Ignore all files starting with "z"
+z*
+
+# Ignore the .env file which contains sensitive information
+.env
+
+# Ignore the artifacts directory which contains build artifacts
+/artifacts/
